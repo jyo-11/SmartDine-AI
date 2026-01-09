@@ -7,7 +7,7 @@ vectorizer= joblib.load('models/tfidf_vectorizer.pkl')
 
 st.set_page_config(page_title="SmartDine AI",page_icon="🍽️",layout="wide")
 
-st.title("🍽️ SmartDine AI- Restaurant Setiment Analysis")
+st.title("🍽️ SmartDine AI- Restaurant Sentiment Analysis")
 
 st.write("Enter a restaurant review to see how sentiment changes in real time based on the text.")
 
